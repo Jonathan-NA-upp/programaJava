@@ -1,5 +1,4 @@
 package ModeloUsuarios;
-
 import java.util.*;
 
 /**
@@ -7,10 +6,19 @@ import java.util.*;
  */
 public class Mantenimiento extends Usuario {
 
-    /**
-     * Default constructor
-     */
     public Mantenimiento() {
+    }
+
+    public int ordenTrabajo;
+
+    private String personal;
+
+    private void atenderOrden() {
+        
+    }
+
+    private void consultarOrden() {
+       
     }
 
 }
